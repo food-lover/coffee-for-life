@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+ul.bar {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.bar li {
+    float: left;
+    width: 217px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+ul.bar li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul.bar li a:hover {
+    background-color: green
+}
+
+ul.bar li ul li {
+    display: none;
+}
+
+ul.bar li:hover ul li {
+    display: block;
+}
+
+.logo {
+    width: 20%;
+    length: 20%;
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    background: url(coffee1.jpg);
+    margin: 100px auto;
+    animation: slide 10s infinite;
+    position: absolute;
+}
+
+.info {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    font-size: 50%;
+}
+
+.toppic {
+    margin-left: 120px;
+    margin-top: 5px;
+    height: 40%;
+    width: 80%;
+}
+
+.heading {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 90%;
+}
+
+.panel {
+    padding: 18px;
+    background-color: silver;
+    display: none;
+    overflow: hidden;
+}
