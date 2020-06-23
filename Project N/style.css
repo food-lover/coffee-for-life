@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+.menu{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    background-color: wheat;
+    text-decoration: none;
+}
+.menu_item ul {
+    display: flex;
+    margin: 25px;
+}
+.menu_item ul li{
+    list-style: none;
+    margin: 0 25px;
+    color: black;
+    text-transform: uppercase;
+}.logo a{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
+.menu_item ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu_item ul li :hover{
+    color: whitesmoke;
+}
+.banner_image{
+    background-image: url("g2.jpg");
+    width: 100%;
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_content{
+    font-size: 30px;
+    color: whitesmoke;
+
+}
+.banner_content a{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+
+}
+.banner_content .active2 a{
+    border: 2px soild whitesmoke;...
+}
+.banner_content a:hover{
+    border: 2px solid whitesmoke;...
+}
+.about a{
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+}
+.about a:hover{
+    border: 2px solid whitesmoke;
+    color: black;
+}
+.about,.hottest{
+    text-align: center;
+    padding: 5% 10%;
+
+}
+.hottest{
+    background: #f5f5f5f5;
+}
+.hottest_places{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+.place{
+    width: 30%;
+}
+.place img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.place a{
+    color: black;
+    font-size: 25px;
+}
+.place a:hover{
+    color: wheat;
+}
+.donate_img{
+    background-image: url(g4.jpg);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate h4{
+    color:wheat;
+    font-size: 30px;
+}
+.donate a{
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+}
+.donate a:hover{
+    border: 2px solid wheat;
+    margin: 30px;
+padding: 10px;
+}
+.bottom{
+  background:wheat;
+  width: 30px;
+  padding: 15px;
+  text-align: center
+  ;
+}
