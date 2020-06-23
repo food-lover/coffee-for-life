@@ -22,6 +22,10 @@ ul li {
     margin-right: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
@@ -45,15 +49,6 @@ ul li:hover ul li {
     length: 20%;
 }
 
-.slider {
-    width: 800px;
-    height: 400px;
-    background: url(coffee1.jpg);
-    margin: 100px auto;
-    animation: slide 10s infinite;
-    position: absolute;
-}
-
 .info {
     color: white;
     background-color: black;
@@ -62,6 +57,7 @@ ul li:hover ul li {
     font-size: 50%;
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 .toppic {
@@ -143,4 +139,9 @@ th {
     padding-bottom: 0px;
     padding: 0px;
     margin: 0px;
+}
+
+.social {
+    padding-left: 200px;
+    padding-top: 50px;
 }
