@@ -4,13 +4,13 @@ body {
     color: black;
 }
 
-ul.bar {
+ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-ul.bar li {
+ul li {
     float: left;
     width: 217px;
     height: 40px;
@@ -22,21 +22,21 @@ ul.bar li {
     margin-right: 5px;
 }
 
-ul.bar li a {
+ul li a {
     text-decoration: none;
     color: white;
     display: block;
 }
 
-ul.bar li a:hover {
+ul li a:hover {
     background-color: green
 }
 
-ul.bar li ul li {
+ul li ul li {
     display: none;
 }
 
-ul.bar li:hover ul li {
+ul li:hover ul li {
     display: block;
 }
 
@@ -60,6 +60,8 @@ ul.bar li:hover ul li {
     opacity: 0.8;
     display: block;
     font-size: 50%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .toppic {
@@ -81,4 +83,42 @@ ul.bar li:hover ul li {
     background-color: silver;
     display: none;
     overflow: hidden;
+}
+
+.topic {
+    font-weight: bolder;
+    font-size: 200%;
+    font-style: italic;
+}
+
+.func {
+    color: white;
+}
+
+.tab {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    max-width: 33%;
+}
+
+#p1 {
+    background-color: yellow;
+}
+
+#p2 {
+    display: none;
+}
+
+.solo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team {
+    background-color: yellowgreen;
 }
