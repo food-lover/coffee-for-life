@@ -113,7 +113,8 @@ th {
     display: none;
 }
 
-.solo {
+.review,
+.toptrend {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -121,4 +122,25 @@ th {
 
 .team {
     background-color: yellowgreen;
+}
+
+.box {
+    background-color: rgba(26, 7, 7, 0.8);
+}
+
+.flex {
+    display: flex;
+}
+
+.slogan {
+    margin-top: 50px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ttpic {
+    width: 18rem;
+    padding-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
 }
