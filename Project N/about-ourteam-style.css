@@ -67,6 +67,8 @@ ul li:hover ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner_content {
