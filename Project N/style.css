@@ -96,7 +96,8 @@ ul li:hover ul li {
 .hottest,
 .review,
 .ourteam,
-.missionandvision {
+.missionandvision,
+.donatemain {
     text-align: center;
     padding: 5% 10%;
 }
@@ -217,7 +218,8 @@ ul li:hover ul li {
 }
 
 .ourteam,
-.missionandvision {
+.missionandvision,
+.donatemain {
     font-size: 200%;
 }
 
@@ -228,4 +230,9 @@ ul li:hover ul li {
 
 .developer-info {
     padding-top: 80px;
+}
+
+.money {
+    padding: 30px;
+    font-size: 30px;
 }
