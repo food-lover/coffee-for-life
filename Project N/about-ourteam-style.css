@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https: //fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+}
+
+.menu_list li {
+    width: 120px;
+    height: 40px;
+    background-color: wheat;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(131, 116, 50);
+    display: block;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: rgb(104, 96, 62);
+    color: white;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.menu_list .menu_xxx {
+    display: block;
+}
+
+.banner_image {
+    background-image: url("https://highlandscoffee.com.vn/vnt_upload/news/11_2018/5.jpg");
+    width: 100%;
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.banner_content a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.banner_content a:hover {
+    border: 2px solid whitesmoke;
+}
+
+.ourteam {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.donate {
+    background-color: rgb(105, 53, 44);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+.donate h4 {
+    color: wheat;
+    font-size: 30px;
+}
+
+.donate a {
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+}
+
+.donate a:hover {
+    border: 2px solid wheat;
+    margin: 30px;
+    padding: 10px;
+}
+
+.logo {
+    padding-left: 0px;
+    height: 118px;
+    float: left;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info {
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.information {
+    background-color: #414042;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    line-height: 1.7;
+}
+
+.icon {
+    justify-content: space-around;
+    padding-left: 400px;
+    font-size: 30px;
+    color: black
+}
+
+.ourteam {
+    font-size: 200%;
+}
+
+.developer,
+.mvcont {
+    padding-top: 20px;
+}
+
+.developer-info {
+    padding-top: 80px;
+}
+
+.money {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.social {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.social-icon {
+    padding-left: 15px;
+}
+
+.wraper {
+    background-color: rgb(153, 62, 62);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
