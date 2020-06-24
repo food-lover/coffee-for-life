@@ -94,7 +94,9 @@ ul li:hover ul li {
 
 .about,
 .hottest,
-.review {
+.review,
+.ourteam,
+.missionandvision {
     text-align: center;
     padding: 5% 10%;
 }
@@ -212,4 +214,18 @@ ul li:hover ul li {
     padding-left: 400px;
     font-size: 30px;
     color: black
+}
+
+.ourteam,
+.missionandvision {
+    font-size: 200%;
+}
+
+.developer,
+.mvcont {
+    padding-top: 20px;
+}
+
+.developer-info {
+    padding-top: 80px;
 }
