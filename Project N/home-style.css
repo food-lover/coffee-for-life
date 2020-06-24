@@ -61,7 +61,7 @@ ul li:hover ul li {
 }
 
 .banner_image {
-    background-image: url("https://highlandscoffee.com.vn/vnt_upload/news/11_2018/5.jpg");
+    background-image: url("homepic.jpg");
     width: 100%;
     height: 645px;
     display: flex;
