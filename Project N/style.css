@@ -14,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: wheat;
+    position: fixed;
 }
 
 .menu_list {
@@ -129,12 +130,13 @@ ul li:hover ul li {
 }
 
 .donate {
-    background-image: url(g4.jpg);
+    background-color: rgb(105, 53, 44);
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .donate h4 {
@@ -208,7 +210,6 @@ ul li:hover ul li {
 .icon {
     justify-content: space-around;
     padding-left: 400px;
-    padding-bottom: 0px;
     font-size: 30px;
     color: black
 }
