@@ -57,7 +57,7 @@ ul li:hover ul li {
 }
 
 .banner_image {
-    background-image: url("g2.jpg");
+    background-image: url("https://highlandscoffee.com.vn/vnt_upload/news/11_2018/5.jpg");
     width: 100%;
     height: 645px;
     display: flex;
@@ -93,7 +93,8 @@ ul li:hover ul li {
 }
 
 .about,
-.hottest {
+.hottest,
+.review {
     text-align: center;
     padding: 5% 10%;
 }
@@ -164,4 +165,50 @@ ul li:hover ul li {
     padding-left: 0px;
     height: 118px;
     float: left;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.review {
+    font-size: 150%;
+    background-color: rgb(160, 72, 55);
+}
+
+.post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: solid 2px;
+}
+
+.reviewer {
+    border-top: solid 3px;
+    padding-top: 5px;
+}
+
+.thought {
+    padding-top: 8px;
+}
+
+.info {
+    float: left;
+    font-size: 120%;
+}
+
+.information {
+    background-color: #f3f3f3;
+    color: black;
+    display: flex;
+}
+
+.icon {
+    justify-content: space-around;
+    padding-left: 400px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    color: black
 }
