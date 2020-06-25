@@ -69,9 +69,15 @@ ul li:hover ul li {
     align-items: center;
 }
 
+.banner_image:hover .banner_content {
+    opacity: 1;
+    transition: .5s ease;
+}
+
 .banner_content {
     font-size: 30px;
     color: whitesmoke;
+    opacity: 0;
 }
 
 .banner_content a {
